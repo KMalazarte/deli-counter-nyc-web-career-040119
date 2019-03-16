@@ -4,7 +4,7 @@ def line(array)
   else
   new_line = []
   array.each_with_index {|name, i| new_line.push "#{i+1}. #{name}"}
-  puts "The line is currently: #{new_line}"
+  puts "The line is currently: #{new_line.join("")}"
 end
 end
   
